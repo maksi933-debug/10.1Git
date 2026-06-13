@@ -1,0 +1,17 @@
+[project]
+name = "10-1-lesson"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Roman Maximov",email = "maksi933@gmail.com"}
+]
+requires-python = "^3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "10"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
